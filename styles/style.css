@@ -1,0 +1,371 @@
+
+/* index style */
+body{
+	background-color: #F1F1F1;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+.inBox{
+	width: 354px;
+	height: 192px;
+	margin: 150px auto;
+}
+.inBox ul{
+	display: inline-block;
+	margin: 0 auto;
+}
+.inBox li{
+	width: 152px;
+	height: 182px;
+	float: left;
+	display: block;
+}
+.inBox .middle_s{
+	width:50px;
+}
+.inBox p{
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/icon/portalStyle.png);
+	background-repeat: no-repeat;
+	border: 1px solid #F1F1F1;
+	border-radius: 5px 5px;
+}
+.inBox span{
+	width: 40px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#000;
+	margin: 5px auto;
+}
+.left_s p{
+	background-position: 0 0;
+}
+.right_s p{
+   background-position: -144px 0;
+}
+
+/* Login And register */
+.navTitle{
+	width: 100%;
+	height: 80px;
+	background-color: #3333FF;
+}
+.navTitle h3{
+	text-align: center;
+	font:40px/80px "微软雅黑";
+	color:#CCCCFF;
+}
+.navMain{
+	width: 400px;
+	height: 340px;
+	border: 1px #ccc solid;
+	margin: 100px auto;
+	overflow: hidden;
+}
+.navMain .navP{
+	width: 100%;
+    font-size: 18px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0000CC;
+    font-style: normal;
+}
+.navMain li{
+	width: 350px;
+	height: 60px;
+	line-height: 60px;
+}
+.navMain p{
+	float: left;
+	font-size: 18px;
+	width: 100px;
+	text-align: right;
+
+}
+.navMain input{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	margin-left: 2px;
+	padding: 0 5px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.navMain .nav_yz{
+	width: 80px;
+}
+.navMain .nav_bt{
+	float: right;
+	width: 150px;
+	height: 30px;
+}
+.navMain .nav_bt a{
+	color: #000000;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.navMain .nav_bt a:hover{
+	text-decoration: underline;
+}
+.navMain .nav_sf input{
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+}
+.navMain .nav_sf label{
+	width: 20px;
+	height: 15px;
+	font-size: 15px;
+	line-height: 15px;
+}
+.navMain .nav_sf label,.navMain .nav_sf input{
+	vertical-align: middle;
+}
+
+/* homepage */
+.main_title{
+	width: 100%;
+	height: 66px;
+	background-color: #000000;
+	color: #FFF;
+}
+.main_title h3{
+    font-weight: normal;
+    width: 300px;
+    height: 100%;
+    font-size: 36px;
+    line-height: 66px;
+    margin-left: 300px;
+    letter-spacing: 3px;
+    font-style: oblique;
+}
+.main_title span{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.main_title a{
+    display:block;
+    margin-top: -66px;
+    height: 66px;
+    width: 100px;
+    float: right;
+    padding-right: 100px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    overflow: hidden;
+}
+.main_menu{
+	width: 1321px;
+	margin: 0 auto;
+}
+.main_menu .menu_title{
+	width: 100%;
+	height: 68px;
+	border-bottom: 2px solid #D0D6D9;
+	line-height: 66px;
+	font-size: 16px;
+}
+.main_menu .menu_title h3{
+	font-weight: 700px;
+	color:#14191E;	
+}
+.main_menu .menu_title a{
+	text-align: right;
+	display: block;
+	margin-top: -66px;
+	margin-right: 10px;
+	color: #72EB9E;
+	font-size: 20px;
+	font-style: oblique;
+}
+.main_menu .menu_title a:hover{
+	text-decoration: underline;
+}
+.menu_nav .nav_top{
+	width: 100%;
+	border-bottom: 1px solid #D0D6D9;
+}
+.menu_nav .nav_top li{
+	float: left;
+	margin: 19px 13px;
+}
+.menu_nav .nav_top li a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	padding: 2px 4px;
+	color: #14191E;
+
+}
+.menu_nav .nav_top li a:hover{
+	color:#F01400;
+}
+/* 调试 */
+.menu_nav .nav_top .active{
+	background-color: #333333;
+	color: #FFF;
+}
+.nav_tool{
+	background-color: #F9F9F9;
+}
+.nav_tool li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.nav_tool li a{
+	padding: 0 20px;
+	display: block;
+	color: #14191E;
+}
+.active_tool{
+	background-color: #FFF;
+}
+.course_list .course-one{
+	width: 240px;
+	height: 200px;
+	padding: 23px;
+	float: left;
+	margin: 6px 61px 11px -19px;
+}
+.course_list .course-one .course-list-img{
+	width: auto;
+	height: auto;
+	max-height: 135px;
+	text-align: center;
+}
+.course-one h5{
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+}
+.course-one .tips{
+	text-align: right;
+	margin-right: 40px;
+}
+.course-one:hover{
+	border: 1px solid #CCC;
+	border-radius: 2px 2px;
+	margin: 5px 60px 10px -20px;
+}
+.page{
+	margin: 30px auto;
+	width: 600px;
+	text-align: center;
+}
+.page a{
+	padding: 3px 10px;
+	display: inline-block;
+	font-size: 18px;
+	color:#000;
+}
+.page .active_page{
+	background-color: #CC0000;
+	color: #FFF;
+}
+.main-footer{
+	width: 100%;
+	height: 109px;
+	background-color: #000000;
+	font-size: 18px;
+	line-height: 109px;
+	text-align: center;
+}
+.main-footer{
+	 overflow: auto;
+}
+.main-footer p{
+	color: #FFF;
+    display: inline-block;
+}
+/* students personal information */
+.per_main{
+	width: 1000px;
+	margin: 30px auto;
+}
+.per_main .leftArea{
+	width: 200px;
+	min-height: 500px;
+	height: auto;
+	float: left;
+}
+.per_main .leftArea li{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #000;
+	background: url(../images/icon/sj.jpg) 170px center no-repeat;
+}
+.per_main .leftArea li a{
+	color: #000;
+}
+
+.per_main .leftArea .courseActive a{
+	color: #F01400;
+}
+.per_main .rightArea{
+	border-top: 1px solid #ccc;
+	float: left;
+	width: 770px;
+	margin-left: 30px;
+	height: auto;
+}
+.per_main .rightArea .courseStudy li,.per_main .rightArea .courseBuy li{
+	margin: 10px auto;
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.per_main .rightArea .courseQuestion li{
+	margin: 10px auto;
+	width: 600px;
+	min-height: 170px;
+}
+.per_main .rightArea .courseQuestion span{
+	width: 100px;
+	text-align: left;
+	float: left;
+	display: block;
+	font-size: 14px;
+}
+.per_main .rightArea textarea{
+	width: 500px;
+	margin-bottom: 20px;
+	min-height: 60px;
+	text-indent: 2em;
+	font-size: 14px;
+	padding: 10px;
+	display: block;
+
+}
+.dis{
+	display: none;
+}
+.courseBuy .syMoney{
+     width: 150px;
+     height: 40px;
+     line-height: 40px;
+     margin-top: 0;
+     font-size: 14px;
+ }
+ .courseLists{
+ 	margin-top: 10px;
+ }
+
+/* teachers personal information */
+
+

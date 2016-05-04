@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ch-zn">
+<head>
+	<meta charset="UTF-8">
+	<title>管理员主页</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/js_admin.js"></script>
+
+</head>
+<body>
+    <div class="main_title clearfix">
+		<h3>易学网<span>管理员主页</span></h3>
+		<a href="#"><span>用户名用户名用户名用户名</span></a>
+	</div>
+	<div class="per_main clearfix">
+		<div class="leftArea" id="notice-tit">
+			<ul>
+				<li class="courseActive"><a href="#">管理员管理</a></li>
+				<li><a href="#">用户管理</a></li>
+				<li><a href="#">已上传课程管理</a></li>
+				<li><a href="#">提问与回答管理</a></li>
+			</ul>
+		</div>
+		<div class="rightArea" id="notice-con">
+			<div class="adminMan" id="adminTable">
+			    <table >
+				    <thead>
+				    	<tr>
+				    		<th>序号</th>
+				    		<th>用户名</th>
+				    		<th>身份</th>
+				    		<th>授权日期</th>
+				    	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td id="id">1</td>
+				    		<td id="adminName">adrerer22222</td>
+				    		<td id="identity">管理员</td>
+				    		<td id="date">2016.04.03</td>
+				    	</tr>
+				    	<tr>
+				    		<td id="id">2</td>
+				    		<td id="adminName">adrerer22222</td>
+				    		<td id="identity">管理员</td>
+				    		<td id="date">2016.04.03</td>
+				    	</tr>
+				    	<tr>
+				    		<td id="id">3</td>
+				    		<td id="adminName">adrerer22222</td>
+				    		<td id="identity">管理员</td>
+				    		<td id="date">2016.04.03</td>
+				    	</tr>
+				    	<tr>
+				    		<td id="id">4</td>
+				    		<td id="adminName">adrerer22222</td>
+				    		<td id="identity">管理员</td>
+				    		<td id="date">2016.04.03</td>
+				    	</tr>
+				    </tbody>
+			    </table>
+			</div>
+			<div class="usersMan dis" id="usersMan">
+			    <table id="userTable">
+				    <thead>
+				    	<tr>
+				    		<th><label><input type="checkbox" name="choice" value="全选" class="check_all check">&nbsp;全选</label></th>
+				    		<th>序号</th>
+				    		<th>用户名</th>
+				    		<th>身份</th>
+				    		<th>注册日期</th>
+				    		<th>操作</th>
+				    	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="userName">adrerer22222</td>
+				    		<td id="identity">学生</td>
+				    		<td id="date">2016.04.23</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="userName">adrerer22222</td>
+				    		<td id="identity">学生</td>
+				    		<td id="date">2016.04.23</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="userName">adrerer22222</td>
+				    		<td id="identity">学生</td>
+				    		<td id="date">2016.04.23</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="userName">adrerer22222</td>
+				    		<td id="identity">学生</td>
+				    		<td id="date">2016.04.23</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="userName">adrerer22222</td>
+				    		<td id="identity">学生</td>
+				    		<td id="date">2016.04.23</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    </tbody>
+			    </table>
+			    <i class="foot" id="foot">
+			    	<label class="fl select_all"><input type="checkbox" class="check_all check">&nbsp;全选</label>已选<span id="userAll">0</span>个
+			    	<a class="fr delete" id="udeleteAll" href="javascript:;">删除</a>
+			    </i>
+			</div>
+			<div class="coursesMan dis" id="coursesMan">
+			    <table id="courseTable">
+				    <thead>
+				    	<tr>
+				    		<th><label><input type="checkbox" name="choice" value="全选" class="check_all check">&nbsp;全选</label></th>
+				    		<th>序号</th>
+				    		<th>课程名</th>
+				    		<th>分类</th>
+				    		<th>上传者</th>
+				    		<th>上传日期</th>
+				    		<th>观看人数</th>
+				    		<th>操作</th>
+				    	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="courseName">HTML基础</td>
+				    		<td id="about">HTML</td>
+				    		<td id="writer">as2121233</td>
+				    		<td id="date">2016.04.24</td>
+				    		<td id="viewer">26</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="courseName">HTML基础</td>
+				    		<td id="about">HTML</td>
+				    		<td id="writer">as2121233</td>
+				    		<td id="date">2016.04.24</td>
+				    		<td id="viewer">26</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="courseName">HTML基础</td>
+				    		<td id="about">HTML</td>
+				    		<td id="writer">as2121233</td>
+				    		<td id="date">2016.04.24</td>
+				    		<td id="viewer">26</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    	<tr>
+				    		<td class="checkbox"><input type="checkbox" class="check_one check"></td>
+				    		<td id="id">1</td>
+				    		<td id="courseName">HTML基础</td>
+				    		<td id="about">HTML</td>
+				    		<td id="writer">as2121233</td>
+				    		<td id="date">2016.04.24</td>
+				    		<td id="viewer">26</td>
+				    		<td id="operation"><a href="javascript:;" class="delete">删除</a></td>
+				    	</tr>
+				    </tbody>
+			    </table>
+			    <i class="foot" id="foot">
+			    	<label class="fl select_all"><input type="checkbox" class="check_all check">&nbsp;全选</label>已选<span id="courseAll">0</span>个
+			    	<a class="fr delete" id="cdeleteAll" href="javascript:;">删除</a>
+			    </i>
+			</div>
+			<div class="courseQuestion clearfix dis">
+			    <ul>
+			    	<li>
+				    	<span>学生+提问</span>
+						<textarea rows="3"name="提问"></textarea><br/>
+						<span>老师+回答</span>
+						<textarea rows="5"name="回答"></textarea><br/>
+					</li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div class="main-footer">
+		<p>Copyright © 2016 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+	</div>
+</body>
+</html>
